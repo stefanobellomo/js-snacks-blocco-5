@@ -1,12 +1,16 @@
 const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
+let name = []
 names.forEach(thisame => {
-    console.log(thisame);
+    name.push(thisame);
 })
-// Risultato: 'Edoardo', 'Simone', 'Francesco'
+console.log(name);
 
+// Risultato: 'Edoardo', 'Simone', 'Francesco'
+let naem = []
 for (let i = 0; i < names.length; i++) {
     const name = names[i];
-    console.log(name);
+    naem.push(name)
 }
+console.log(naem);
