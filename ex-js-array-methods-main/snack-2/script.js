@@ -5,4 +5,16 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+const name_people = people.filter((names) => {
+  console.log(names.name);
+})
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+for (let i = 0; i < people.length; i++) {
+  const person = people[i].name;
+  console.log(person); 
+}
+
+people.forEach(person => {
+  console.log(person);
+})
