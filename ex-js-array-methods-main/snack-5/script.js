@@ -15,12 +15,16 @@ let even = []
 for (let i = 0; i < nums.length; i++) {
     const numb = nums[i];
     if (numb % 2 === 0) {
-        console.log(numb);
+        even.push(numb)
     }
 }
+console.log(even);
 
+const nuMb = []
 nums.forEach((numb) =>{
     if (numb % 2 === 0) {
-        console.log(numb);
+        nuMb.push(numb)
     }
 })
+console.log(nuMb);
+
