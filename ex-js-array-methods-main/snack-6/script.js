@@ -29,8 +29,8 @@ for (let i = 0; i < zucchine.length; i++) {
 
 
 zucchine.forEach((zucchina, i) => {
-  const thiszucchina = zucchine[i].length;
-  if (thiszucchina >= 15) {
+  const thiszucchina = zucchine[i];
+  if (thiszucchina.length >= 15) {
     console.log(thiszucchina);
   }
 });
